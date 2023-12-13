@@ -1,0 +1,13 @@
+#passwordField {
+    position: relative;
+  }
+  
+  #passwordIcon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  #passwordIcon:hover{
+      color: #375160;
+  }

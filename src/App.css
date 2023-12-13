@@ -1,0 +1,13 @@
+.link{
+  text-decoration: none !important;
+    color: inherit;
+}
+
+.spaceBetween{
+  display: flex;
+  justify-content: space-between;
+}
+
+.errors{
+  color: red;
+}
