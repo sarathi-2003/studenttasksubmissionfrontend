@@ -117,8 +117,7 @@ function ViewProfile() {
       emailid: "",
       username: "",
       id: "",
-      username: "",
-    },
+      },
     validate: (values) => {
       let errors = {};
       if (!values.firstname) {
