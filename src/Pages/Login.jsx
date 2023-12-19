@@ -7,6 +7,8 @@ import LoginNav from "../Components/LoginNav";
 import { config } from "../config";
 import { mobile } from "../responsive";
 import UserContext from "../usercontext";
+import StudentDashboard from "./Student/StudentDashboard";
+import MentorDashboard from "./Mentor/MentorDashboard";
 
 const Container = styled.div``;
 const Wrapper = styled.div`
@@ -189,7 +191,7 @@ function Login() {
               {formik.errors.password ? (
                 <span className="errors">{formik.errors.password}</span>
               ) : null}
-              <Button type="submit">LOGIN</Button>
+              <Button type="submit" onClick={()=> StudentDashboard()}>LOGIN</Button>
               {contextData.loginType === "STUDENT" ? (
                 <Div>
                   <H2>For Testing:</H2>
