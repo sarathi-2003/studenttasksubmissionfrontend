@@ -191,7 +191,7 @@ function Login() {
               {formik.errors.password ? (
                 <span className="errors">{formik.errors.password}</span>
               ) : null}
-              <Button type="submit" onClick={()=> StudentDashboard()}>LOGIN</Button>
+              <Button type="submit">LOGIN</Button>
               {contextData.loginType === "STUDENT" ? (
                 <Div>
                   <H2>For Testing:</H2>
